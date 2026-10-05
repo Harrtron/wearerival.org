@@ -23,6 +23,7 @@
       name="description"
       content="Football belongs to fans, not bookmakers. RIVAL is the football app built by fans, for fans - no odds, no gambling ads, nothing pushing you toward a bet."
     />
+    <link rel="canonical" href="https://wearerival.org/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="css/main.css?v=64" />
@@ -46,6 +47,38 @@
       content="Football belongs to fans, not bookmakers. RIVAL is the football app built by fans, for fans - no odds, no gambling ads, nothing pushing you toward a bet."
     />
     <meta name="twitter:image" content="https://wearerival.org/images/og-share.jpg" />
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://wearerival.org/#organization",
+            "name": "RIVAL",
+            "legalName": "Play The Future Ltd",
+            "url": "https://wearerival.org/",
+            "logo": "https://wearerival.org/images/rival_icon.png",
+            "slogan": "The Game Is Ours",
+            "sameAs": ["https://www.linkedin.com/company/playrival/"],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer support",
+              "email": "support@playrival.app"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://wearerival.org/#website",
+            "url": "https://wearerival.org/",
+            "name": "RIVAL",
+            "description": "Football belongs to fans, not bookmakers. RIVAL is the football app built by fans, for fans - no odds, no gambling ads, nothing pushing you toward a bet.",
+            "inLanguage": "en",
+            "publisher": { "@id": "https://wearerival.org/#organization" }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div class="bg-grid" aria-hidden="true"></div>
