@@ -2,7 +2,7 @@
 
 ## Cursor Cloud specific instructions
 
-This repository is a **static website** for `playrival.app` (the RIVAL marketing site), deployed via **GitHub Pages** (see `CNAME`, `.nojekyll`). There is **no build step, no package manager, no automated test suite, and no lint tooling**. The "application" is the set of static HTML/CSS/JS files served as-is.
+This repository is a **static website** for `wearerival.org` (the RIVAL marketing site), deployed via **GitHub Pages** (see `CNAME`, `.nojekyll`). There is **no build step, no package manager, no automated test suite, and no lint tooling**. The "application" is the set of static HTML/CSS/JS files served as-is.
 
 ### Running the site (development)
 

@@ -38,7 +38,7 @@
     banner.setAttribute("aria-live", "polite");
 
     banner.innerHTML =
-      '<p class="cookie-consent__text">We use cookies to understand how visitors use <strong>playrival.app</strong>. ' +
+      '<p class="cookie-consent__text">We use cookies to understand how visitors use <strong>wearerival.org</strong>. ' +
       '<a href="/privacy.html#cookies">Learn more</a>.</p>' +
       '<div class="cookie-consent__actions">' +
       '<button type="button" class="cookie-consent__btn cookie-consent__btn--secondary" data-consent="denied">Reject</button>' +

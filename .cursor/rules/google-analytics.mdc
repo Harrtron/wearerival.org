@@ -4,9 +4,9 @@ globs: "**/*.html"
 alwaysApply: false
 ---
 
-# Google Analytics (playrival.app)
+# Google Analytics (wearerival.org)
 
-Every **public-facing HTML page** on playrival.app must include Google Analytics with **Consent Mode v2** and the shared cookie-consent script. Measurement ID: `G-R445NE2NSX`.
+Every **public-facing HTML page** on wearerival.org must include Google Analytics with **Consent Mode v2** and the shared cookie-consent script. Measurement ID: `G-R445NE2NSX`.
 
 ## Required on each page
 

@@ -232,9 +232,9 @@ def main() -> None:
     logo = logo.resize((lw, lh), Image.Resampling.LANCZOS)
     img_rgb.paste(logo, (pad_left, H - lh - 44), logo)
 
-    # playrival.app label
+    # wearerival.org label
     font_domain = get_system_font(16)
-    draw.text((pad_left + lw + 16, H - lh - 44 + (lh - 16) // 2), "playrival.app", fill=MUTED, font=font_domain)
+    draw.text((pad_left + lw + 16, H - lh - 44 + (lh - 16) // 2), "wearerival.org", fill=MUTED, font=font_domain)
 
     # -- Save ----------------------------------------------------------------
     OUT.parent.mkdir(parents=True, exist_ok=True)
